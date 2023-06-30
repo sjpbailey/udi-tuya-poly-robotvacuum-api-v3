@@ -165,8 +165,22 @@ class TuyaController(udi_interface.Node):
             LOGGER.info(address)
             model = i['model']
             LOGGER.info(model)
+            
+            if i['model'] == "BR151R":
+                LOGGER.info('Device Type')
+                LOGGER.info("Robot Vacuum")
+                LOGGER.info('\n')
+                node = tuya_robotvac_node.RobvacNode(
+                    self.poly, self.address, address, name, new_id, deviceid, self.apiAccessId, self.apiSecret, self.apiEndpoint, self.apiRegion)
+                self.poly.addNode(node)
+                self.wait_for_node_done()
+            else:
+                LOGGER.info("OTHER DEVICE")
+        time.sleep(.5)
+        self.pulsar()
             # "switch_1" in i['status'][0]['code']:
-            if i['model'] == "SS01S(\u4e0d\u5206\u8d1f\u8f7d)\u4e50\u946b":
+            
+        """if i['model'] == "SS01S(\u4e0d\u5206\u8d1f\u8f7d)\u4e50\u946b":
                 LOGGER.info('Device Type')
                 LOGGER.info("SWITCH")
                 LOGGER.info('\n')
@@ -249,7 +263,7 @@ class TuyaController(udi_interface.Node):
             else:
                 LOGGER.info("OTHER DEVICE")
         time.sleep(.5)
-        self.pulsar()
+        self.pulsar()"""
         
     def pulsar(self):
         LOGGER.info("Add Pulsar")
