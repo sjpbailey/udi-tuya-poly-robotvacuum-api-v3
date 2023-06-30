@@ -18,8 +18,8 @@
         <sts>
             <st id="GV2" editor="RUNBOB" />
             <st id="GV3" editor="MODE1" />
-            <st id="GV7" editor="MODEM" />
             <st id="GV8" editor="MODES" />
+            <st id="GV7" editor="MODEM" />
             <st id="GV4" editor = "STATB" />
             <st id="GV5" editor="B_PERCENT" />
             <st id="TIME" editor="B_TIME" />
@@ -36,12 +36,12 @@
                     <p id="" editor="MODE1" init="GV3" />
                 </cmd>
 
-                <cmd id="MODEM">
-                    <p id="" editor="MODEM" init="GV7" />
-                </cmd>
-
                 <cmd id="MODES">
                     <p id="" editor="MODES" init="GV8" />
+                </cmd>
+
+                <cmd id="MODEM">
+                    <p id="" editor="MODEM" init="GV7" />
                 </cmd>
 
                 <cmd id="QUERY" />
