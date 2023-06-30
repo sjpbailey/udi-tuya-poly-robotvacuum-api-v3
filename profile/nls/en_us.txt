@@ -1,7 +1,7 @@
 # controller
 ND-tuya-NAME = Tuya Sweeper Controller
 ND-tuya-ICON = Alarm
-ST-tuyanls-ST-NAME = Tuya NodeServer Running
+ST-tuyanls-ST-NAME = Tuya Sweeper Running
 CMD-tuyanls-REMOVE_NOTICES_ALL-NAME = Remove Notices
 CMD-tuyanls-DISCOVER-NAME = Query
 
