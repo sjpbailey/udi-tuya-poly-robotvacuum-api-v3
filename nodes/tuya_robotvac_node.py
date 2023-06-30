@@ -9,7 +9,6 @@ import colorsys
 import udi_interface
 import time
 import json
-from tuya_bulb_control import Bulb
 from tuya_connector import (
     TuyaOpenAPI,)
 
