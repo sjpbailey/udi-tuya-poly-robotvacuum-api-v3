@@ -4,9 +4,7 @@ Polyglot v3 node server Lighting Version
 Copyright (C) 2021 For James Paul Modified by Steven Bailey
 """
 import logging
-from nodes import tuya_light_node_v1
-from nodes import tuya_light_node
-from nodes import tuya_switch_node
+from nodes import tuya_robotvac_node
 from nodes import TuyaController
 import udi_interface
 import sys
@@ -18,7 +16,7 @@ LOG_HANDLER = udi_interface.LOG_HANDLER
 if __name__ == "__main__":
     try:
         LOGGER.debug("Staring Tuya Cloud Interface")
-        polyglot = udi_interface.Interface([TuyaController, tuya_switch_node])
+        polyglot = udi_interface.Interface([TuyaController, tuya_robotvac_node])
         polyglot.start()
         control = TuyaController(
             polyglot, 'controller', 'controller', 'Tuya Sweeper')
