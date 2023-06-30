@@ -21,7 +21,7 @@ if __name__ == "__main__":
         polyglot = udi_interface.Interface([TuyaController, tuya_switch_node])
         polyglot.start()
         control = TuyaController(
-            polyglot, 'controller', 'controller', 'Tuya Cloud')
+            polyglot, 'controller', 'controller', 'Tuya Sweeper')
         polyglot.runForever()
     except (KeyboardInterrupt, SystemExit):
         polyglot.stop()

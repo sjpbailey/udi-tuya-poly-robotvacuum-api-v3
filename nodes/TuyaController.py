@@ -2,7 +2,7 @@
 Polyglot v3 node server
 Copyright (C) 2023 Steven Bailey
 MIT License
-This node server polls Tuya TreatLife LED's and Switches for
+This node server polls Tuya Robot Sweeper Vacuum
 API control via GET and POST
 Version 3.0.1 Jun 2023
 Version 3.0.1 Jun 2023
