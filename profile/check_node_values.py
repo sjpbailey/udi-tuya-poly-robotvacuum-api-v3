@@ -13,7 +13,7 @@ issues = 0
 
 # Open the editors file and check for errors
 editor_tree = ET.parse(
-    '/Users/stevenbailey/UDI Development PG3/Nodeservers/udi-tuya-poly-cloud-api-v3/profile/editor/editors.xml')
+    '/Users/stevenbailey/UDI Development PG3/Nodeservers/udi-tuya-poly-robotvacuum-api-v3/profile/editor/editors.xml')
 root = editor_tree.getroot()
 editors = {}
 for item in root:
@@ -50,7 +50,7 @@ if issues == 0:
 
 # Read in the NLS file and build a dictionary.
 nls = {}
-with open('/Users/stevenbailey/UDI Development PG3/Nodeservers/udi-tuya-poly-cloud-api-v3/profile/nls/en_us.txt') as fp:
+with open('/Users/stevenbailey/UDI Development PG3/Nodeservers/udi-tuya-poly-robotvacuum-api-v3/profile/nls/en_us.txt') as fp:
     for line in fp:
         line = line.rstrip()
         if line != "" and line[0] != '#':
@@ -59,7 +59,7 @@ with open('/Users/stevenbailey/UDI Development PG3/Nodeservers/udi-tuya-poly-clo
 
 # Now parse the node definitions and build the appropriate driver arrays
 node_tree = ET.parse(
-    '/Users/stevenbailey/UDI Development PG3/Nodeservers/udi-tuya-poly-cloud-api-v3/profile/nodedef/nodedefs.xml')
+    '/Users/stevenbailey/UDI Development PG3/Nodeservers/udi-tuya-poly-robotvacuum-api-v3/profile/nodedef/nodedefs.xml')
 root = node_tree.getroot()
 for item in root:
     #nodeType = item.attrib['nodeType']
