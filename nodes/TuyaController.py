@@ -15,12 +15,7 @@ from tuya_connector import (
 
 from nodes import tuya_robotvac_node
 from nodes import tuya_pulsar_node
-from nodes import tuya_pir_node
-from nodes import tuya_relay_node
-from nodes import tuya_switch_node
-from nodes import tuya_switch_dimmer_node
-from nodes import tuya_light_node
-from nodes import tuya_light_node_v1
+
 
 LOGGER = udi_interface.LOGGER
 Custom = udi_interface.Custom
