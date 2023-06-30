@@ -177,94 +177,9 @@ class TuyaController(udi_interface.Node):
             else:
                 LOGGER.info("OTHER DEVICE")
         time.sleep(.5)
-        self.pulsar()
-            # "switch_1" in i['status'][0]['code']:
-            
-        """if i['model'] == "SS01S(\u4e0d\u5206\u8d1f\u8f7d)\u4e50\u946b":
-                LOGGER.info('Device Type')
-                LOGGER.info("SWITCH")
-                LOGGER.info('\n')
-                node = tuya_switch_node.SwitchNode(
-                    self.poly, self.address, address, name, new_id, deviceid, self.apiAccessId, self.apiSecret, self.apiEndpoint)
-                self.poly.addNode(node)
-                self.wait_for_node_done()
-            elif i['model'] == "\u5f00\u5173(\u84dd\u7259+Wi-Fi)":
-                LOGGER.info('Device Type')
-                LOGGER.info("SWITCH")
-                LOGGER.info('\n')
-                node = tuya_switch_node.SwitchNode(
-                    self.poly, self.address, address, name, new_id, deviceid, self.apiAccessId, self.apiSecret, self.apiEndpoint)
-                self.poly.addNode(node)
-                self.wait_for_node_done()
-            elif i['model'] == "SS01S\uff08\u706b\u7ebf\u8d1f\u8f7d\u7ebf\u4e0d\u5206\u7248\u672c\uff09BK\u7248\u672c":
-                LOGGER.info('Device Type')
-                LOGGER.info("SWITCH")
-                LOGGER.info('\n')
-                node = tuya_switch_node.SwitchNode(
-                    self.poly, self.address, address, name, new_id, deviceid, self.apiAccessId, self.apiSecret, self.apiEndpoint)
-                self.poly.addNode(node)
-                self.wait_for_node_done()
-            elif i['model'] == "\u706f\u5e26\u63a7\u5236\u5668\uff08BK\uff09":
-                LOGGER.info('Device Type')
-                LOGGER.info("LED-V1")
-                LOGGER.info('\n')
-                node = tuya_light_node_v1.LightNode(
-                    self.poly, self.address, address, name, new_id, deviceid, self.apiAccessId, self.apiSecret, self.apiEndpoint, self.apiRegion)
-                self.poly.addNode(node)
-                self.wait_for_node_done()
-            elif i['model'] == "SL10":
-                LOGGER.info('Device Type')
-                LOGGER.info("LED-V2")
-                LOGGER.info('\n')
-                node = tuya_light_node.LightNode(
-                    self.poly, self.address, address, name, new_id, deviceid, self.apiAccessId, self.apiSecret, self.apiEndpoint, self.apiRegion)
-                self.poly.addNode(node)
-                self.wait_for_node_done()
-            elif i['product_name'] == "120V A19 9W SMART BULB":
-                LOGGER.info('Device Type')
-                LOGGER.info("LED-V2")
-                LOGGER.info('\n')
-                node = tuya_light_node.LightNode(
-                    self.poly, self.address, address, name, new_id, deviceid, self.apiAccessId, self.apiSecret, self.apiEndpoint, self.apiRegion)
-                self.poly.addNode(node)
-                self.wait_for_node_done()
-            elif i['model'] == "DS01C(\u91cf\u4ea7\uff09":
-                LOGGER.info('Device Type')
-                LOGGER.info("SWITCH Dimmer")
-                LOGGER.info('\n')
-                node = tuya_switch_dimmer_node.SwitchNode(
-                    self.poly, self.address, address, name, new_id, deviceid, self.apiAccessId, self.apiSecret, self.apiEndpoint)
-                self.poly.addNode(node)
-                self.wait_for_node_done()
-            elif i['model'] == "TY-DIY-S04":
-                LOGGER.info('Device Type')
-                LOGGER.info("Relay")
-                LOGGER.info('\n')
-                node = tuya_relay_node.RelayNode(
-                    self.poly, self.address, address, name, new_id, deviceid, self.apiAccessId, self.apiSecret, self.apiEndpoint)
-                self.poly.addNode(node)
-                self.wait_for_node_done()
-            elif i['model'] == "PIR-wifi-V01":
-                LOGGER.info('Device Type')
-                LOGGER.info("PIR")
-                LOGGER.info('\n')
-                node = tuya_pir_node.PirNode(
-                    self.poly, self.address, address, name, new_id, deviceid, self.apiAccessId, self.apiSecret, self.apiEndpoint)
-                self.poly.addNode(node)
-                self.wait_for_node_done()
-            elif i['model'] == "BR151R":
-                LOGGER.info('Device Type')
-                LOGGER.info("Robot Vacuum")
-                LOGGER.info('\n')
-                node = tuya_robotvac_node.RobvacNode(
-                    self.poly, self.address, address, name, new_id, deviceid, self.apiAccessId, self.apiSecret, self.apiEndpoint, self.apiRegion)
-                self.poly.addNode(node)
-                self.wait_for_node_done()
-            else:
-                LOGGER.info("OTHER DEVICE")
-        time.sleep(.5)
-        self.pulsar()"""
-        
+        #self.pulsar()
+
+    ### Run in LED for PIR sensors for now
     def pulsar(self):
         LOGGER.info("Add Pulsar")
         address = "pulsa_1"
