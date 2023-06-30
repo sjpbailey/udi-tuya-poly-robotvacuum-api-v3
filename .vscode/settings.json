@@ -1,0 +1,42 @@
+{
+    "cSpell.words": [
+        "BOTOF",
+        "BOTON",
+        "botro",
+        "chargego",
+        "CONFIGFILE",
+        "cpvpi",
+        "DEVICEBOT",
+        "DEVICELED",
+        "DEVICEPIR",
+        "DEVICESW",
+        "iwmn",
+        "kvtr",
+        "LGTCL",
+        "lgtv",
+        "lightv",
+        "MODEBOB",
+        "MODEBOT",
+        "MODECL",
+        "MODESU",
+        "MODESW",
+        "pirm",
+        "robotvac",
+        "Robvac",
+        "RUNBOB",
+        "SNAPSHOTFILE",
+        "STATB",
+        "switchdim",
+        "swtdim",
+        "SWTOF",
+        "SWTON",
+        "Tiker",
+        "tock",
+        "tuyanls",
+        "txejpdfda"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none"
+}

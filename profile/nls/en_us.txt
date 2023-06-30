@@ -1,0 +1,197 @@
+# controller
+ND-tuya-NAME = Tuya NodeServer Controller
+ND-tuya-ICON = Alarm
+ST-tuyanls-ST-NAME = Tuya NodeServer Running
+CMD-tuyanls-REMOVE_NOTICES_ALL-NAME = Remove Notices
+CMD-tuyanls-DISCOVER-NAME = Query
+
+# Pulsar
+ND-pulsa-NAME = Pulse 
+ND-pulsa-ICON = Electricity
+ST-pula-ST-NAME = Node Status
+ST-pula-GV2-NAME = Up
+CMD-pula-SWTON-NAME = Pulsar Start
+#CMD-pula-SWTOF-NAME = Pulsar Stop
+CMD-pula-QUERY-NAME = Query
+
+# LightNodeV1
+ND-lightv1-NAME = Light Node V1
+ND-lightv1-ICON = LampAndSwitch
+ST-lgtv1-ST-NAME = Node Status
+ST-lgtv1-GV2-NAME = Light Status
+ST-lgtv1-GV3-NAME = Light Level
+ST-lgtv1-GV4-NAME = Light Mode Command
+ST-lgtv1-GV5-NAME = Light Color Command
+#ST-lgtv1-GV5-NAME = Light Colour
+#ST-lgtv1-GV6-NAME = Light Scene
+#ST-lgtv1-GV7-NAME = Light Music
+#ST-lgtv1-GV8-NAME = Light White
+
+
+CMD-lgtv1-LGTON-NAME = Light On
+CMD-lgtv1-LGTOF-NAME = Light Off
+CMD-lgtv1-LGTCL-NAME = Light Color
+CMD-lgtv1-STLVL-NAME = Set Level
+CMD-lgtv1-MODE-NAME = Command
+#CMD-lgtv1-LGTCFLIP-NAME = Light Test
+
+
+# LightNodeV2
+ND-lightv2-NAME = Light Node V2
+ND-lightv2-ICON = LampAndSwitch
+ST-lgtv2-ST-NAME = Node Status
+ST-lgtv2-GV2-NAME = Light Status
+ST-lgtv2-GV3-NAME = Light Level
+ST-lgtv2-GV4-NAME = Light Mode Command
+#ST-lgtv2-GV5-NAME = Light Color Command
+ST-lgtv2-GV5-NAME = Light Colour
+#ST-lgtv2-GV6-NAME = Light Scene
+#ST-lgtv2-GV7-NAME = Light Music
+#ST-lgtv2-GV8-NAME = Light White
+
+CMD-lgtv2-LGTON-NAME = Light On
+CMD-lgtv2-LGTOF-NAME = Light Off
+CMD-lgtv2-LGTCL-NAME = Light Color
+CMD-lgtv2-STLVL-NAME = Level White
+CMD-lgtv2-MODE-NAME = Command
+
+# LED Modes
+MODE-0 = Colour
+MODE-1 = Scene
+MODE-2 = Music
+
+# LED Color
+MODECL-0 = Red High
+MODECL-1 = Red Low
+MODECL-2 = Orange High
+MODECL-3 = Orange low
+MODECL-4 = Yellow High
+MODECL-5 = Yellow Low
+MODECL-6 = Green High
+MODECL-7 = Green Low
+MODECL-8 = Blue High
+MODECL-9 = Blue Low
+MODECL-10 = Indigo High
+MODECL-11 = Indigo Low
+MODECL-12 = Violet High
+MODECL-13 = Violet Low
+MODECL-14 = White Colour
+MODECL-15 = White Work
+
+
+# Switch
+ND-switch-NAME = Switch 
+ND-switch-ICON = Electricity
+ST-swt-ST-NAME = Node Status
+ST-swt-GV2-NAME = Switch Status
+CMD-swt-SWTON-NAME = Switch On
+CMD-swt-SWTOF-NAME = Switch Off
+CMD-swt-QUERY-NAME = Query
+
+# switch status
+ISS-0 = Unknown
+ISS-1 = On
+ISS-2 = Off
+ISS-3 = Auto
+
+# Switch Dimmer
+ND-switchdim-NAME = Dimmer Switch 
+ND-switchdim-ICON = Electricity
+ST-swtdim-ST-NAME = Node Status
+ST-swtdim-GV2-NAME = Switch Status
+ST-swtdim-GV3-NAME = Light Level
+ST-swtdim-GV4-NAME = Light Mode Command
+CMD-swtdim-SWTON-NAME = Switch On
+CMD-swtdim-SWTOF-NAME = Switch Off
+CMD-swtdim-STLVL-NAME = Set Level
+CMD-swtdim-MODESW-NAME = Command
+CMD-swtdim-QUERY-NAME = Query
+
+# Dimmer Modes
+MODESW-0 = halogen
+MODESW-1 = incandescent
+
+# Relay
+ND-relay-NAME = Relay 
+ND-relay-ICON = Switch
+ST-rly-GV2-NAME = Relay 1 Status
+ST-rly-GV3-NAME = Relay 2 Status
+ST-rly-GV4-NAME = Relay 3 Status
+ST-rly-GV5-NAME = Relay 4 Status
+ST-rly-ST-NAME = Node Status
+CMD-rly-SWTON1-NAME = Switch 1 On
+CMD-rly-SWTOF1-NAME = Switch 1 Off
+CMD-rly-SWTON2-NAME = Switch 2 On
+CMD-rly-SWTOF2-NAME = Switch 2 Off
+CMD-rly-SWTON3-NAME = Switch 3 On
+CMD-rly-SWTOF3-NAME = Switch 3 Off
+CMD-rly-SWTON4-NAME = Switch 4 On
+CMD-rly-SWTOF4-NAME = Switch 4 Off
+CMD-rly-QUERY-NAME = Query
+
+# PIR
+ND-pirm-NAME = PIR 
+ND-pirm-ICON = MotionSensor
+ST-pir-ST-NAME = Node Status
+ST-pir-GV2-NAME = PIR Tripped
+ST-pir-GV3-NAME = Battery Percent
+CMD-pir-QUERY-NAME = Query
+
+# Robot
+ND-robvac-NAME = Robot Sweeper
+ND-robvac-ICON = GenericRspCtl
+ST-bot-GV2-NAME = Robot Status
+ST-bot-GV3-NAME = Command
+ST-bot-GV4-NAME = Status
+ST-bot-GV7-NAME = Manual Control
+ST-bot-GV8-NAME = Suction
+ST-bot-GV9-NAME = Water Level
+ST-bot-GV5-NAME = Battery %
+ST-bot-TIME-NAME = Clean Time
+ST-bot-ST-NAME = Node Status
+
+
+#ST-bot-GV8-NAME = Light White
+
+CMD-bot-BOTON-NAME = Run Vacuum
+CMD-bot-BOTOF-NAME = Home Charge
+CMD-bot-MODE1-NAME = Command
+CMD-bot-MODEM-NAME = Manual
+CMD-bot-MODES-NAME = Suction
+
+CMD-bot-QUERY-NAME = Query
+
+# Robot Modes
+MODE1-0 = Charge
+MODE1-1 = Standby
+MODE1-2 = Spiral
+MODE1-3 = Wall Follow
+MODE1-4 = Random
+MODE1-5 = Partial Bow
+
+# Manual Control
+MODEM-0 = Forward
+MODEM-1 = Backward
+MODEM-2 = Turn Left
+MODEM-3 = Turn Right
+MODEM-4 = Stop
+
+# Robot Go
+RUNBOB-0 = Docked
+RUNBOB-1 = Running
+
+# Suction
+MODESU-0 = Low
+MODESU-1 = Normal
+MODESU-2 = High
+
+# Robot status
+STATB-0 = Standby
+STATB-1 = Smart
+STATB-2 = Wall Clean
+STATB-3 = Spot Clean
+STATB-4 = Home to Charge
+STATB-5 = Charging
+STATB-6 = Charged
+STATB-7 = Cleaning
+STATB-8 = Sleep
