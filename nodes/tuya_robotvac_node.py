@@ -15,7 +15,6 @@ from tuya_connector import (
 
 LOGGER = udi_interface.LOGGER
 
-
 class RobvacNode(udi_interface.Node):
     def __init__(self, polyglot, primary, address, name, new_id, deviceid, apiAccessId, apiSecret, apiEndpoint, apiRegion):
         super(RobvacNode, self).__init__(polyglot, primary, address, name)
