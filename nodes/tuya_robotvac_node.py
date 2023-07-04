@@ -2,7 +2,7 @@
 Polyglot v3 node server
 Copyright (C) 2023 Steven Bailey
 MIT License
-Version 3.0.1 Jun 2023
+Version 1.0.1 July 2023
 """
 import asyncio
 import colorsys
