@@ -1,6 +1,6 @@
 {
 	"name": "TuyaSweeper",
-	"docs": "https://github.com/sjpbailey/udi-tuya-poly-cloud-api-v3/README.md",
+	"docs": "https://github.com/sjpbailey/Documentation/blob/main/Tuya%20Robot%20Sweeper/README.md/README.md",
 	"type": "python3",
 	"executable": "tuya-cloud.py",
 	"install": "install.sh",
@@ -21,12 +21,12 @@
 	},
 	"credits": [
 		{
-			"title": "Tuya TreatLife LED Bulbs and Switches",
+			"title": "Tuya TreatLife Robot Sweeper Vacuum",
 			"author": "Steve Bailey (sjpbailey)",
 			"version": "1.0.1",
-			"date": "June 15, 2023",
-			"source": "https://github.com/sjpbailey/udi-tuya-poly-cloud-api-v3",
-			"license": "https://github.com/sjpbailey/udi-tuya-poly-cloud-api-v3/LICENSE"
+			"date": "July 3, 2023",
+			"source": "https://github.com/sjpbailey/udi-tuya-poly-robotvacuum-api-v3",
+			"license": "https://github.com/sjpbailey/Documentation/blob/main/Tuya%20Robot%20Sweeper/README.md/LICENSE"
 		}
 	],
 	"store": {
